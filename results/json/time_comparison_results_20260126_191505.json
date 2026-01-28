@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-01-26T19:13:39.350247",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "ER_n100_p0.05",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 100,
+        "p": 0.05,
+        "nodes": 100,
+        "edges": 224
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.51715087890625,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4583258628845215,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.378680944442749,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4368557929992676,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.6395368576049805,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n500_p0.01",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 500,
+        "p": 0.01,
+        "nodes": 500,
+        "edges": 1230
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.3941750526428223,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.3870489597320557,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.381127119064331,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.5122838020324707,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.1578428745269775,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n1000_p0.005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 1000,
+        "p": 0.005,
+        "nodes": 1000,
+        "edges": 2495
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.552811861038208,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.468290090560913,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.464381217956543,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.6576037406921387,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 3.189603090286255,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n2000_p0.0025",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 2000,
+        "p": 0.0025,
+        "nodes": 2000,
+        "edges": 4930
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4409241676330566,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4975297451019287,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.914637804031372,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.348177909851074,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 4.9870641231536865,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n5000_p0.001",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 5000,
+        "p": 0.001,
+        "nodes": 5000,
+        "edges": 12158
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.444439172744751,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.608320951461792,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.7339129447937012,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.747694253921509,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 8.794027090072632,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n10000_p0.0005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 10000,
+        "p": 0.0005,
+        "nodes": 10000,
+        "edges": 24907
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.7017271518707275,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5895659923553467,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 2.0368638038635254,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 4.864206075668335,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 20.30578088760376,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

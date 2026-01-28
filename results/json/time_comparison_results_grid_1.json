@@ -1,0 +1,319 @@
+{
+  "timestamp": "2026-01-21T18:07:21.601172",
+  "timeout_seconds": 60,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Grid_10x10",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 10,
+        "nodes": 100,
+        "edges": 180
+      },
+      "methods": {
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.003961086273193359,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.004434823989868164,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.008898019790649414,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.0036187171936035156,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.0045092105865478516,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.0011439323425292969,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.002576112747192383,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.010689020156860352,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.0269927978515625,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.07251310348510742,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_30x30",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 30,
+        "nodes": 900,
+        "edges": 1740
+      },
+      "methods": {
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.041619062423706055,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.04780316352844238,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.08663821220397949,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.1318981647491455,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.12569880485534668,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.04665803909301758,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.07916378974914551,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.13573408126831055,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.26279401779174805,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.7251598834991455,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_50x50",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 50,
+        "nodes": 2500,
+        "edges": 4900
+      },
+      "methods": {
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.5145924091339111,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.7077028751373291,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.8879549503326416,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 1.1938910484313965,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 1.3317975997924805,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.26875901222229004,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.301422119140625,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.4454469680786133,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.8998479843139648,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.3045430183410645,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_70x70",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 70,
+        "nodes": 4900,
+        "edges": 9660
+      },
+      "methods": {
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 2.8696470260620117,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 3.5199358463287354,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 4.70186710357666,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 6.168181896209717,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 6.845605134963989,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.9064462184906006,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.9987022876739502,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.2957210540771484,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.2440719604492188,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 5.045414209365845,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_100x100",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 100,
+        "nodes": 10000,
+        "edges": 19800
+      },
+      "methods": {
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 18.029576778411865,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 22.4880793094635,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 32.43002200126648,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 42.48357176780701,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 51.68812298774719,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 3.5623929500579834,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 3.6987547874450684,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 4.323217868804932,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 6.201850175857544,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 12.084609985351562,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

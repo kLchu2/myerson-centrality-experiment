@@ -1,0 +1,260 @@
+{
+  "timestamp": "2026-01-28T17:19:03.630702",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Complete_n10",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 10,
+        "nodes": 10,
+        "edges": 45
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.00030112266540527344,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.0001990795135498047,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.00010704994201660156,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.00015425682067871094,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.0001437664031982422,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.00018095970153808594,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n12",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 12,
+        "nodes": 12,
+        "edges": 66
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.00015115737915039062,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.00010204315185546875,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.00011181831359863281,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.00013899803161621094,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.00016999244689941406,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.0002040863037109375,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n14",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 14,
+        "nodes": 14,
+        "edges": 91
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.000186920166015625,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.00011587142944335938,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.00013017654418945312,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.00017213821411132812,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.00019669532775878906,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.0002319812774658203,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n16",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 16,
+        "nodes": 16,
+        "edges": 120
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.0002498626708984375,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.0001277923583984375,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.0001621246337890625,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.00021505355834960938,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.00024080276489257812,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.00028705596923828125,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n20",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 20,
+        "nodes": 20,
+        "edges": 190
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.0005099773406982422,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.00019288063049316406,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.00023984909057617188,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.00023984909057617188,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.00029587745666503906,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.0003368854522705078,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n25",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 25,
+        "nodes": 25,
+        "edges": 300
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.0007560253143310547,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.0002129077911376953,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.0002529621124267578,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.0003230571746826172,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.0005030632019042969,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.0005049705505371094,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

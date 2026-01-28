@@ -1,0 +1,927 @@
+{
+  "timestamp": "2026-01-26T19:20:06.324890",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Grid_10x10",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 10,
+        "nodes": 100,
+        "edges": 180
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4748189449310303,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.415092945098877,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4166698455810547,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4259371757507324,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4117341041564941,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_20x20",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 20,
+        "nodes": 400,
+        "edges": 760
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4023339748382568,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4072039127349854,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4612820148468018,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4511840343475342,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5801169872283936,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_30x30",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 30,
+        "nodes": 900,
+        "edges": 1740
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5484979152679443,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5582458972930908,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4089171886444092,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.5698740482330322,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5030078887939453,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_50x50",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 50,
+        "nodes": 2500,
+        "edges": 4900
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.388474941253662,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.409303903579712,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.562774658203125,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4580438137054443,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.8550736904144287,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_70x70",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 70,
+        "nodes": 4900,
+        "edges": 9660
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4392240047454834,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5044190883636475,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4761121273040771,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.5899169445037842,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.0922629833221436,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_100x100",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 100,
+        "nodes": 10000,
+        "edges": 19800
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5230648517608643,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5160109996795654,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.6566591262817383,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.9038240909576416,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.578333854675293,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s50_t5",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 50,
+        "tooth_length": 5,
+        "nodes": 300,
+        "edges": 299
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4180338382720947,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4864859580993652,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4211599826812744,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.3743619918823242,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.3801820278167725,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s100_t10",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 100,
+        "tooth_length": 10,
+        "nodes": 1100,
+        "edges": 1099
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.3401529788970947,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.372107982635498,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4643137454986572,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4093890190124512,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4054358005523682,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s150_t15",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 150,
+        "tooth_length": 15,
+        "nodes": 2400,
+        "edges": 2399
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4891982078552246,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.428772211074829,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.3864879608154297,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4038212299346924,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5491909980773926,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s200_t20",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 200,
+        "tooth_length": 20,
+        "nodes": 4200,
+        "edges": 4199
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4352929592132568,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.3962810039520264,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.3890421390533447,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4187848567962646,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5907247066497803,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s250_t25",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 250,
+        "tooth_length": 25,
+        "nodes": 6500,
+        "edges": 6499
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.432309865951538,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.6032719612121582,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4713170528411865,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4523189067840576,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4002587795257568,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s300_t30",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 300,
+        "tooth_length": 30,
+        "nodes": 9300,
+        "edges": 9299
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.3905317783355713,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5802083015441895,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4025187492370605,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.405083179473877,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.443608283996582,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n100_p0.05",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 100,
+        "p": 0.05,
+        "nodes": 100,
+        "edges": 224
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.3945457935333252,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.395967960357666,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.2839279174804688,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4770779609680176,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5236375331878662,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n1000_p0.005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 1000,
+        "p": 0.005,
+        "nodes": 1000,
+        "edges": 2495
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.3690440654754639,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4107518196105957,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4643149375915527,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.848313808441162,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 3.1770920753479004,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n2000_p0.0025",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 2000,
+        "p": 0.0025,
+        "nodes": 2000,
+        "edges": 4930
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.388456106185913,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4556210041046143,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.6464710235595703,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.15364408493042,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 4.59345006942749,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n5000_p0.001",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 5000,
+        "p": 0.001,
+        "nodes": 5000,
+        "edges": 12158
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4532179832458496,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4617700576782227,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.6777417659759521,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.8912951946258545,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 8.671546936035156,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n10000_p0.0005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 10000,
+        "p": 0.0005,
+        "nodes": 10000,
+        "edges": 24907
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.589195728302002,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.7114360332489014,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 2.067204236984253,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 4.701888084411621,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 19.91341805458069,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n20000_p0.00025",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 20000,
+        "p": 0.00025,
+        "nodes": 20000,
+        "edges": 49909
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.672422170639038,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.8973109722137451,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 3.028763771057129,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 9.336187839508057,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 44.87661695480347,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n50000_p0.0001",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 50000,
+        "p": 0.0001,
+        "nodes": 50000,
+        "edges": 124993
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 2.2518889904022217,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 2.7350893020629883,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 6.139065265655518,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 24.598899126052856,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 127.89354181289673,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n10",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 10,
+        "nodes": 10,
+        "edges": 45
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4129998683929443,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4422600269317627,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4553940296173096,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.3912501335144043,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5065240859985352,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n12",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 12,
+        "nodes": 12,
+        "edges": 66
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.0138471126556396,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.0017170906066895,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.0179030895233154,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.1116020679473877,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4694390296936035,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n14",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 14,
+        "nodes": 14,
+        "edges": 91
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.1229071617126465,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.1129508018493652,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.1419780254364014,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.3400328159332275,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.851222038269043,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n16",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 16,
+        "nodes": 16,
+        "edges": 120
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.2304439544677734,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.1980690956115723,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.2682721614837646,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.6917059421539307,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 6.417586088180542,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n20",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 20,
+        "nodes": 20,
+        "edges": 190
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.3977491855621338,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4006068706512451,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5455799102783203,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 3.3921186923980713,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 31.429712057113647,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Complete_n25",
+      "graph_metadata": {
+        "type": "complete",
+        "n": 25,
+        "nodes": 25,
+        "edges": 300
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.432389259338379,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.338381052017212,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.6745827198028564,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 10.230676889419556,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 196.63570976257324,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

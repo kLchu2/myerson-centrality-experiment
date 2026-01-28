@@ -1,0 +1,248 @@
+{
+  "timestamp": "2026-01-23T08:01:40.417008",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Grid_10x10",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 10,
+        "nodes": 100,
+        "edges": 180
+      },
+      "methods": {
+        "revised": {
+          "success": false,
+          "elapsed_time": 300.0068233013153,
+          "L_max": 99
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_20x20",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 20,
+        "nodes": 400,
+        "edges": 760
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "Grid_30x30",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 30,
+        "nodes": 900,
+        "edges": 1740
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "Grid_50x50",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 50,
+        "nodes": 2500,
+        "edges": 4900
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "Grid_70x70",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 70,
+        "nodes": 4900,
+        "edges": 9660
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "Grid_100x100",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 100,
+        "nodes": 10000,
+        "edges": 19800
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "Comb_s50_t5",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 50,
+        "tooth_length": 5,
+        "nodes": 300,
+        "edges": 299
+      },
+      "methods": {
+        "revised": {
+          "success": true,
+          "elapsed_time": 0.14923477172851562,
+          "L_max": 299
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s100_t10",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 100,
+        "tooth_length": 10,
+        "nodes": 1100,
+        "edges": 1099
+      },
+      "methods": {
+        "revised": {
+          "success": true,
+          "elapsed_time": 3.5534348487854004,
+          "L_max": 1099
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s150_t15",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 150,
+        "tooth_length": 15,
+        "nodes": 2400,
+        "edges": 2399
+      },
+      "methods": {
+        "revised": {
+          "success": true,
+          "elapsed_time": 26.13300108909607,
+          "L_max": 2399
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s200_t20",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 200,
+        "tooth_length": 20,
+        "nodes": 4200,
+        "edges": 4199
+      },
+      "methods": {
+        "revised": {
+          "success": true,
+          "elapsed_time": 106.60512495040894,
+          "L_max": 4199
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s250_t25",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 250,
+        "tooth_length": 25,
+        "nodes": 6500,
+        "edges": 6499
+      },
+      "methods": {
+        "revised": {
+          "success": false,
+          "elapsed_time": 300.00589394569397,
+          "L_max": 6499
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s300_t30",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 300,
+        "tooth_length": 30,
+        "nodes": 9300,
+        "edges": 9299
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "ER_n100_p0.05",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 100,
+        "p": 0.05,
+        "nodes": 100,
+        "edges": 224
+      },
+      "methods": {
+        "revised": {
+          "success": false,
+          "elapsed_time": 300.0059299468994,
+          "L_max": 99
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n500_p0.01",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 500,
+        "p": 0.01,
+        "nodes": 500,
+        "edges": 1230
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "ER_n1000_p0.005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 1000,
+        "p": 0.005,
+        "nodes": 1000,
+        "edges": 2495
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "ER_n2000_p0.0025",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 2000,
+        "p": 0.0025,
+        "nodes": 2000,
+        "edges": 4930
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "ER_n5000_p0.0001",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 5000,
+        "p": 0.0001,
+        "nodes": 5000,
+        "edges": 1259
+      },
+      "methods": {}
+    },
+    {
+      "graph_name": "ER_n10000_p0.0005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 10000,
+        "p": 0.0005,
+        "nodes": 10000,
+        "edges": 24907
+      },
+      "methods": {}
+    }
+  ]
+}

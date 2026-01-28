@@ -1,0 +1,785 @@
+{
+  "timestamp": "2026-01-26T18:49:21.633224",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Grid_10x10",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 10,
+        "nodes": 100,
+        "edges": 180
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.6009490489959717,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4182462692260742,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4954099655151367,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.5364937782287598,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.489271879196167,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_20x20",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 20,
+        "nodes": 400,
+        "edges": 760
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5053298473358154,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4617178440093994,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.608382225036621,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.421886920928955,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5464181900024414,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_30x30",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 30,
+        "nodes": 900,
+        "edges": 1740
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.531313180923462,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.4135570526123047,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4071521759033203,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4476511478424072,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5654237270355225,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_50x50",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 50,
+        "nodes": 2500,
+        "edges": 4900
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.6341569423675537,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.597419023513794,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4588079452514648,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.5998342037200928,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.733205795288086,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_70x70",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 70,
+        "nodes": 4900,
+        "edges": 9660
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4874920845031738,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5350291728973389,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5356690883636475,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.6279070377349854,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.0820109844207764,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_100x100",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 100,
+        "nodes": 10000,
+        "edges": 19800
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5465991497039795,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5433619022369385,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.7089369297027588,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.903174877166748,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.7291688919067383,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s50_t5",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 50,
+        "tooth_length": 5,
+        "nodes": 300,
+        "edges": 299
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.444861888885498,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5697269439697266,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4416730403900146,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.569286823272705,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5816478729248047,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s100_t10",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 100,
+        "tooth_length": 10,
+        "nodes": 1100,
+        "edges": 1099
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5936579704284668,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.67507004737854,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5424320697784424,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.460336685180664,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.493199110031128,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s150_t15",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 150,
+        "tooth_length": 15,
+        "nodes": 2400,
+        "edges": 2399
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5311272144317627,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.49442720413208,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5144119262695312,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4525268077850342,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4374361038208008,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s200_t20",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 200,
+        "tooth_length": 20,
+        "nodes": 4200,
+        "edges": 4199
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4700863361358643,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.384983777999878,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4888019561767578,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4747369289398193,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4419949054718018,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s250_t25",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 250,
+        "tooth_length": 25,
+        "nodes": 6500,
+        "edges": 6499
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.519374132156372,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5369911193847656,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5626068115234375,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4744791984558105,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.417267084121704,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s300_t30",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 300,
+        "tooth_length": 30,
+        "nodes": 9300,
+        "edges": 9299
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.456719160079956,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5264430046081543,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.528615951538086,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.5379478931427002,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.4795269966125488,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "BA_n50_m3",
+      "graph_metadata": {
+        "type": "barabasi_albert",
+        "n": 50,
+        "m": 3,
+        "nodes": 50,
+        "edges": 141
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5882668495178223,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.449878215789795,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.6219470500946045,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.678628921508789,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.766145944595337,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "BA_n100_m3",
+      "graph_metadata": {
+        "type": "barabasi_albert",
+        "n": 100,
+        "m": 3,
+        "nodes": 100,
+        "edges": 291
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.557337760925293,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5517492294311523,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4743471145629883,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.9222710132598877,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 3.820643901824951,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "BA_n150_m3",
+      "graph_metadata": {
+        "type": "barabasi_albert",
+        "n": 150,
+        "m": 3,
+        "nodes": 150,
+        "edges": 441
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.6222610473632812,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5751450061798096,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4995810985565186,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.120871067047119,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 7.392870187759399,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n100_p0.05",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 100,
+        "p": 0.05,
+        "nodes": 100,
+        "edges": 224
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4379370212554932,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.526932954788208,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5672681331634521,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4779210090637207,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.6095619201660156,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n500_p0.01",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 500,
+        "p": 0.01,
+        "nodes": 500,
+        "edges": 1230
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.4527020454406738,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5069799423217773,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.588392734527588,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.714170217514038,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 2.2908706665039062,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n1000_p0.005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 1000,
+        "p": 0.005,
+        "nodes": 1000,
+        "edges": 2495
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.570417881011963,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.521169900894165,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.5489399433135986,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.9313421249389648,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 3.299985885620117,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n2000_p0.0025",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 2000,
+        "p": 0.0025,
+        "nodes": 2000,
+        "edges": 4930
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.6055450439453125,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.6234421730041504,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.6168129444122314,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.1531598567962646,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 4.82639217376709,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n5000_p0.0001",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 5000,
+        "p": 0.0001,
+        "nodes": 5000,
+        "edges": 1259
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5798108577728271,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.5506799221038818,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.4914093017578125,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.4895751476287842,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.5000262260437012,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n10000_p0.0005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 10000,
+        "p": 0.0005,
+        "nodes": 10000,
+        "edges": 24907
+      },
+      "methods": {
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.5876178741455078,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.6563467979431152,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 2.13590669631958,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 5.047603130340576,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 20.856394052505493,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "timestamp": "2026-01-22T10:34:09.572444",
+  "timeout_seconds": 600,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "ER_n100_p0.05",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 100,
+        "p": 0.05,
+        "nodes": 100,
+        "edges": 224
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.008523941040039062,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.008563995361328125,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.0011239051818847656,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.003698110580444336,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.010262012481689453,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.023025989532470703,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.004076242446899414,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.009465217590332031,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.04081892967224121,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.1613450050354004,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.44849610328674316,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n500_p0.01",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 500,
+        "p": 0.01,
+        "nodes": 500,
+        "edges": 1230
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.7015879154205322,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.044634103775024414,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.03436899185180664,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.046092987060546875,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.07068896293640137,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.08815503120422363,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.012835979461669922,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.0560300350189209,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.23731184005737305,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.9608571529388428,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 5.241256952285767,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n1000_p0.005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 1000,
+        "p": 0.005,
+        "nodes": 1000,
+        "edges": 2495
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 3.083682060241699,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.08182072639465332,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.12543606758117676,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.16290688514709473,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.23437976837158203,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.27371716499328613,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.05753374099731445,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.11963105201721191,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.4088771343231201,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 2.071475028991699,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 11.256975650787354,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n2000_p0.0025",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 2000,
+        "p": 0.0025,
+        "nodes": 2000,
+        "edges": 4930
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 12.463028192520142,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.3147249221801758,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.5018839836120605,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.690483808517456,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.8188316822052002,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 1.0214731693267822,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.15426993370056152,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.22599506378173828,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.8684990406036377,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 4.096344709396362,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 22.149857997894287,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n5000_p0.001",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 5000,
+        "p": 0.001,
+        "nodes": 5000,
+        "edges": 12158
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 81.82412600517273,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 2.916372060775757,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 4.3029937744140625,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 5.626363754272461,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 7.262412071228027,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 8.489203929901123,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.5849218368530273,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.8306341171264648,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 2.178292989730835,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 10.233466148376465,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 52.77468204498291,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "ER_n10000_p0.0005",
+      "graph_metadata": {
+        "type": "erdos_renyi",
+        "n": 10000,
+        "p": 0.0005,
+        "nodes": 10000,
+        "edges": 24907
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 328.5039691925049,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 17.12752890586853,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 23.69467282295227,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 32.94397807121277,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 43.509222984313965,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 52.18045902252197,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 2.386958122253418,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 2.8928561210632324,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 6.065542697906494,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 23.84313678741455,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 118.75147914886475,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

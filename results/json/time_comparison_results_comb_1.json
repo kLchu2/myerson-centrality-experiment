@@ -1,0 +1,416 @@
+{
+  "timestamp": "2026-01-21T19:56:31.497863",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Comb_s50_t5",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 50,
+        "tooth_length": 5,
+        "nodes": 300,
+        "edges": 299
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.05328989028930664,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.007611751556396484,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.013133049011230469,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.01264190673828125,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.0229952335357666,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.042623043060302734,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.0029489994049072266,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.005979061126708984,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.004720211029052734,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.007838010787963867,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.007528781890869141,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s100_t10",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 100,
+        "tooth_length": 10,
+        "nodes": 1100,
+        "edges": 1099
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.8892221450805664,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.05892825126647949,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.07895207405090332,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.1108551025390625,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.1285090446472168,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 0.20938920974731445,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.04967904090881348,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.04483819007873535,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.05030989646911621,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.05006217956542969,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.04699206352233887,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s150_t15",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 150,
+        "tooth_length": 15,
+        "nodes": 2400,
+        "edges": 2399
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 4.2497498989105225,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 0.38365697860717773,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 0.5650477409362793,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 0.7925629615783691,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 0.9143779277801514,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 1.1160638332366943,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.14905095100402832,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.1344907283782959,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.13832998275756836,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.14328789710998535,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.15001988410949707,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s200_t20",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 200,
+        "tooth_length": 20,
+        "nodes": 4200,
+        "edges": 4199
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 13.115183115005493,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 1.5525789260864258,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 2.1937198638916016,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 3.101161003112793,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 3.838016986846924,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 4.535429239273071,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.38912105560302734,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 0.40562915802001953,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 0.4112229347229004,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.4179990291595459,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 0.4643580913543701,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s250_t25",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 250,
+        "tooth_length": 25,
+        "nodes": 6500,
+        "edges": 6499
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 33.08562612533569,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 5.355511903762817,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 7.912743091583252,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 10.074936866760254,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 12.910622835159302,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 16.03933882713318,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 0.9907588958740234,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.0135228633880615,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.0558979511260986,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 0.9993453025817871,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.0884342193603516,
+          "L_max": 6
+        }
+      }
+    },
+    {
+      "graph_name": "Comb_s300_t30",
+      "graph_metadata": {
+        "type": "comb",
+        "spine_length": 300,
+        "tooth_length": 30,
+        "nodes": 9300,
+        "edges": 9299
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 69.11724591255188,
+          "L_max": null
+        },
+        "modified_L2": {
+          "success": true,
+          "elapsed_time": 13.289456844329834,
+          "L_max": 2
+        },
+        "modified_L3": {
+          "success": true,
+          "elapsed_time": 20.584795713424683,
+          "L_max": 3
+        },
+        "modified_L4": {
+          "success": true,
+          "elapsed_time": 29.067885875701904,
+          "L_max": 4
+        },
+        "modified_L5": {
+          "success": true,
+          "elapsed_time": 36.343629121780396,
+          "L_max": 5
+        },
+        "modified_L6": {
+          "success": true,
+          "elapsed_time": 45.925140142440796,
+          "L_max": 6
+        },
+        "path_limited_L2": {
+          "success": true,
+          "elapsed_time": 1.8891220092773438,
+          "L_max": 2
+        },
+        "path_limited_L3": {
+          "success": true,
+          "elapsed_time": 1.906162977218628,
+          "L_max": 3
+        },
+        "path_limited_L4": {
+          "success": true,
+          "elapsed_time": 1.9151101112365723,
+          "L_max": 4
+        },
+        "path_limited_L5": {
+          "success": true,
+          "elapsed_time": 1.9312098026275635,
+          "L_max": 5
+        },
+        "path_limited_L6": {
+          "success": true,
+          "elapsed_time": 1.9462947845458984,
+          "L_max": 6
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-01-21T18:32:21.568586",
+  "timeout_seconds": 300,
+  "influence_constant": 1.0,
+  "L_max_values": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "experiments": [
+    {
+      "graph_name": "Grid_10x10",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 10,
+        "nodes": 100,
+        "edges": 180
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.01478719711303711,
+          "L_max": null
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_20x20",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 20,
+        "nodes": 400,
+        "edges": 760
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 0.24863529205322266,
+          "L_max": null
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_30x30",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 30,
+        "nodes": 900,
+        "edges": 1740
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 1.400954008102417,
+          "L_max": null
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_50x50",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 50,
+        "nodes": 2500,
+        "edges": 4900
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 11.616936922073364,
+          "L_max": null
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_70x70",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 70,
+        "nodes": 4900,
+        "edges": 9660
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 43.94381403923035,
+          "L_max": null
+        }
+      }
+    },
+    {
+      "graph_name": "Grid_100x100",
+      "graph_metadata": {
+        "type": "grid",
+        "size": 100,
+        "nodes": 10000,
+        "edges": 19800
+      },
+      "methods": {
+        "myerson": {
+          "success": true,
+          "elapsed_time": 194.472571849823,
+          "L_max": null
+        }
+      }
+    }
+  ]
+}
