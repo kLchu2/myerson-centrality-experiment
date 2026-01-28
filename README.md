@@ -15,7 +15,7 @@ NetworkXを使ったMyerson中心性とその拡張の実装・実験プロジ�
 
 #### 通常版Myerson中心性
 
-**定義**: $Y_G(v) = \displaystyle \sum_{l=1}^{L} \frac{A_l(v)}{l+1} \cdot r^l$
+$$Y_G(v) = \displaystyle \sum_{l=1}^{L} \frac{A_l(v)}{l+1} \cdot r^l$$
 
 - $A_l(v)$: 頂点 $v$ を含む長さ $l$ の**最短パス**の本数
 - $L$: 最短パスとして存在する最大の長さ
@@ -23,7 +23,7 @@ NetworkXを使ったMyerson中心性とその拡張の実装・実験プロジ�
 
 #### 改訂版Myerson中心性
 
-**定義**: $Y^*_G(v) = \displaystyle \sum_{l=1}^{n-1} \frac{B_l(v)}{l+1} \cdot r^l$
+$$Y^*_G(v) = \displaystyle \sum_{l=1}^{n-1} \frac{B_l(v)}{l+1} \cdot r^l$$
 
 - $B_l(v)$: 頂点 $v$ を含む長さ $l$ の**全ての単純パス**の本数
 - $n-1$: 単純パスの理論的上限（n頂点のグラフにおける単純パスの最大長）
@@ -31,7 +31,7 @@ NetworkXを使ったMyerson中心性とその拡張の実装・実験プロジ�
 
 #### パス長制限Myerson中心性
 
-**定義**: $Y^{L_{max}}_G(v) = \displaystyle \sum_{l=1}^{L_{max}} \frac{B_l(v)}{l+1} \cdot r^l$
+$$Y^{L_{max}}_G(v) = \displaystyle \sum_{l=1}^{L_{max}} \frac{B_l(v)}{l+1} \cdot r^l$$
 
 - $B_l(v)$: 頂点 $v$ を含む長さ $l$ の**全ての単純パス**の本数
 - $L_{max}$: ユーザー指定の最大パス長（制限値）
@@ -39,15 +39,9 @@ NetworkXを使ったMyerson中心性とその拡張の実装・実験プロジ�
 
 #### ウォークに基づく修正版Myerson中心性
 
-最短パスのみを考慮する手法の課題に対し、Mazalovらによって提案された「ウォーク（Walk）」を許容する中心性指標です。隣接行列 $M$ を用いて計算されます。
+$$\sigma_i(l) = \frac{s_i(l)}{l+1}$$
 
-**定義**: $\sigma_i(l) = \frac{s_i(l)}{l+1}$
-
-これを用いて、影響定数 $r$ を考慮した総和は以下のように定義されます：
-
-$$Y^{mod}_G(v) = \displaystyle \sum_{l=1}^{L} \sigma_i(l) \cdot r^l = \sum_{l=1}^{L} \frac{s_i(l)}{l+1} \cdot r^l$$
-
-ここで $s_i(l)$ は、長さ $l$ のすべてのウォークにおける頂点 $v_i$ の総出現回数を表します：
+ここで $s_i(l)$ は、長さ $l$ のすべてのウォークにおける頂点 $v_i$ の総出現回数を表す：
 
 $$s_i(l) = \sum_{j=1}^{n} m_{ij}^{(l)} + \sum_{u=1}^{n} \sum_{t=1}^{l} \left( m_{ui}^{(t)} \sum_{j=1}^{n} m_{ij}^{(l-t)} \right)$$
 
